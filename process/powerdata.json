@@ -1,0 +1,18 @@
+[
+
+
+  {
+    "name": "audio system",
+    "type": "Music System"
+  },
+
+  {
+
+    "name": "fan",
+    
+    "type" : {
+      "name": "Ceiling Fan",
+      "name": "Table Fan"
+    }
+  }
+]

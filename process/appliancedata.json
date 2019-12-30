@@ -1,0 +1,349 @@
+[
+
+    {
+      "id": "1",
+      "name": "Audio System",
+      "parent_id": "0"
+    },
+    {
+      "id":"2",
+      "name": "Fans",
+      "parent_id": "0"
+    },
+    { "id":"3",
+      "name": "Fax Machine",
+      "parent_id": "0"
+    },
+      {
+        "id": "4",
+        "name": "Lamps (Bulb)",
+        "parent_id": "0"
+      },
+      {
+        "id":"5",
+        "name": "Lamps (CFL)",
+        "parent_id": "0"
+      },
+      { "id":"6",
+        "name": "LCD TV",
+        "parent_id": "0"
+      },
+      {
+        "id": "7",
+        "name": "Photocopier",
+        "parent_id": "0"
+      },
+      {
+        "id":"8",
+        "name": "Plasma TV",
+        "parent_id": "0"
+      },
+      { "id":"9",
+        "name": "Printer",
+        "parent_id": "0"
+      },
+      {
+        "id": "10",
+        "name": "Projector",
+        "parent_id": "0"
+      },
+      {
+        "id":"11",
+        "name": "Refrigerator",
+        "parent_id": "0"
+      },
+      { "id":"12",
+        "name": "Scanner",
+        "parent_id": "0"
+      },
+      {
+        "id": "13",
+        "name": "Split air conditioner",
+        "parent_id": "0"
+      },
+      {
+        "id":"14",
+        "name": "Tube Lights",
+        "parent_id": "0"
+      },
+      { "id":"15",
+        "name": "Water Heater/Geaser",
+        "parent_id": "0"
+      },
+      {
+        "id": "16",
+        "name": "Window air conditioner",
+        "parent_id": "0"
+      },
+      {
+        "parent_id": "1",
+
+      "name":"Music System",
+      "id": "17"
+      },
+
+      {
+        "id": "18",
+        "name": "Ceiling Fan",
+        "parent_id": "2"
+      },
+
+      {
+        "id": "19",
+        "name": "Table Fan",
+        "parent_id": "2"
+            },
+
+            {
+            "id": "20",
+            "name": "Fax Machine",
+          "parent_id": "3"
+            },
+            {
+            "id": "21",
+            "name": "40 Watt",
+            "parent_id": "4"
+            },
+            {
+            "id": "22",
+            "name": "60 Watt",
+            "parent_id": "4"
+            },
+            {
+            "id": "23",
+            "name": "100 Watt",
+            "parent_id": "4"
+            },
+
+            {
+            "id": "24",
+            "name": "11 Watt",
+            "parent_id": "5"
+            },
+            {
+            "id": "25",
+            "name": "22 Watt",
+            "parent_id": "5"
+          },
+            {
+            "id": "26",
+            "name": "20 inch LCD",
+            "parent_id": "6"
+            },
+              {
+              "id": "27",
+              "name": "27 inch LCD",
+              "parent_id": "6"
+              }
+              ,
+                {
+                "id": "28",
+                "name": "32 inch LCD",
+                "parent_id": "6"
+                }
+                ,
+                  {
+                  "id": "29",
+                  "name": "37 inch LCD",
+                  "parent_id": "6"
+                  }
+                  ,
+                    {
+                    "id": "30",
+                    "name": "42 inch LCD",
+                    "parent_id": "6"
+                    }
+                    ,
+                      {
+                      "id": "31",
+                      "name": "Photocopier (Small)",
+                      "parent_id": "7"
+                      }
+                      ,
+                        {
+                        "id": "32",
+                        "name": "42 inch Plasma",
+                        "parent_id": "8"
+                        }
+                        ,
+                        {
+                          "id": "33",
+                          "name": "80 COL DMP",
+                          "parent_id": "9"
+                        }
+                        ,
+                        {
+                          "id": "34",
+                          "name": "INKJET Printer (Small)",
+                          "parent_id": "9"
+                        }
+                        ,
+                        {
+                          "id": "35",
+                          "name": "132 COL DMP",
+                          "parent_id": "9"
+                        }
+                        ,
+                        {
+                          "id": "36",
+                          "name": "INKJET Printer (Big)",
+                          "parent_id": "9"
+                        }
+                        ,
+                        {
+                          "id": "37",
+                          "name":"LASER Printer (Small)",
+                          "parent_id": "9"
+                        }
+                        ,
+                        {
+                          "id": "38",
+                          "name":"LASER  Printer (Big)",
+                          "parent_id": "9"
+                        }
+                        ,{
+                          "id":"39",
+                          "name": "Projector",
+                          "parent_id":"10"
+                        }
+                        ,
+                        {
+                          "id":"40",
+                          "name": "165 Liters",
+                          "parent_id":"11"
+
+                        },
+                        {
+                          "id":"41",
+                          "name": "Frost Free 480L",
+                          "parent_id":"11"
+
+                        },
+                        {
+                          "id":"42",
+                          "name": "Non Frost Free 380L",
+                          "parent_id":"11"
+
+                        },
+                        {
+                          "id":"43",
+                          "name": "Side By Side 560L",
+                          "parent_id":"11"
+
+                        },
+                        {
+                          "id":"44",
+                          "name": "Scanner (small)",
+                          "parent_id":"12"
+
+                        },
+                        {
+                          "id":"45",
+                          "name": "Scanner (Big)",
+                          "parent_id":"12"
+
+                        },
+                        {
+                          "id":"46",
+                          "name": "1 Ton AC",
+                          "parent_id":"13"
+
+                        },
+                        {
+                          "id":"47",
+                          "name": "2 Ton AC",
+                          "parent_id":"13"
+
+                        },
+
+                        {
+                          "id":"48",
+                          "name": "3 Ton AC",
+                          "parent_id":"13"
+
+                        },
+                        {
+                          "id":"49",
+                          "name": "40 Watt",
+                          "parent_id":"14"
+
+                        },
+                        {
+                          "id":"50",
+                          "name": "1000 Watt",
+                          "parent_id":"15"
+
+                        },
+                        {
+                          "id":"51",
+                          "name": "2000 Watt",
+                          "parent_id":"15"
+
+                        },
+                        {
+                          "id":"52",
+                          "name": "0.75 Ton AC",
+                          "parent_id":"16"
+
+                        },
+                        {
+                          "id":"53",
+                          "name": "1 Ton AC",
+                          "parent_id":"16"
+
+                        },
+                        {
+                          "id":"54",
+                          "name": "1.5 Ton AC",
+                          "parent_id":"16"
+
+                        },
+
+                        {
+                          "id":"55",
+                          "name": "2 Ton AC",
+                          "parent_id":"16"
+
+                        },
+
+{
+  "id": "56",
+  "name": 1120,
+  "parent_id" : "17"
+}                        
+,
+{
+  "id": "57",
+  "name": 200,
+  "parent_id" : "18"
+}                        
+,
+{
+  "id": "58",
+  "name": 200,
+  "parent_id" : "19"
+}                        
+,
+{
+  "id": "59",
+  "name": 680,
+  "parent_id" : "20"
+}                        
+,
+{
+  "id": "60",
+  "name": 80,
+  "parent_id" : "21"
+},
+{
+  "id": "61",
+  "name": 80,
+  "parent_id" : "22"
+}  
+,
+{
+  "id": "61",
+  "name": 200,
+  "parent_id" : "23"
+}  
+]

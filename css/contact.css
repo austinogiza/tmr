@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script&display=swap');
+
+.contact{
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/solar-system.jpg');
+	background-size: cover;
+	background-position: center 50%;
+	width: 100%;
+	height: 450px;
+	/* background-attachment: fixed; */
+	position: relative;
+}
+
+.contact p{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-size: 40px;
+font-family: 'Lacquer', sans-serif;
+color: #ecf0f1;
+font-weight: 400;
+}
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 22px;
+	font-weight: 400;
+	padding: 8px 12px;
+	position: absolute;
+	top: 70%;
+	right: 0%;
+}
+
+.fa-phone{
+	transform: rotate(90deg);
+}
+.writeus {
+	margin-top: 30px;
+    display: flex;
+	justify-content: center;
+	font-weight: 700;
+}
+
+
+/* 
+
+::-webkit-input-placeholder{
+	color: black;
+}
+
+::-moz-input-placeholder{
+	color: black;
+}
+::-ms-input-placeholder{
+	color: black;
+} */
+
+
+.map{
+	background: transparent;
+	height: 510px;
+	width: 90%;
+	position: relative;
+	margin: 0 auto;
+}
+
+.map iframe{
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	height: 500px;
+}
+
+.how{
+	/* height: 400px; */
+    min-height: 310px;
+	width: 100%;
+	background: url("../images/Square-Versatiles.svg");
+	 /* background-size: cover; */
+	/* background-position: center; */
+	position: relative;
+	text-align: center;
+}
+
+.howto{
+	
+	margin-top: 100px;
+	text-align: center;
+}
+
+.howto h1{	
+
+	 text-align: center;
+	font-weight: 900;
+	font-size: 41px;
+	margin-bottom: 20px;
+	padding-top: 40px;
+	/* position: absolute;
+		top: 35%;
+	left: 46%;
+	transform: translate(-40%, -40%); */
+	text-transform: capitalize;
+	 font-size: 55px;
+	 margin-bottom: 10px;
+
+
+}
+
+.howto a{
+	text-decoration: none;
+	color: aqua;
+}
+
+
+.howto p{	
+	 text-align: center;
+	/* position: absolute;
+		top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+	font-size: 20px;
+    line-height: 25px;
+    margin: 1.5rem 0;
+    letter-spacing: -.03062rem; 
+}
+
+
+.working{
+
+	    background-image: linear-gradient(45deg, #6d1386 40%, #e74c3c 80%) !important;
+	    height: 500px;
+	    width: 90%;
+    border-radius: 1.25rem;
+   margin: 0 auto;
+   position: relative;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.working .workcry{
+	flex: 40%;
+}
+
+.working .workcry img{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	left: -100px;
+
+    top: calc(50% + 12px);
+    -webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+
+}
+
+
+.error{
+	box-shadow: 0 0 5px red;
+	display: inline-block; 
+}
+
+.errorclass p{
+	padding: 9px 9px; 
+	color: #FCFCFC;
+	background: #F20707;
+	text-align: center;
+	font-size: 17px;
+	width: 250px;
+	height: 40px;
+	margin-left: 35%;
+	font-weight: 600;
+
+}
+
+.success p{
+	padding: 9px 9px; 
+	color: #FCFCFC;
+	background: #06EF00;
+	text-align: center;
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 20px;
+	width: 350px;
+	height: 40px;
+	margin-left: 25%;
+}
+
+
+
+@media only screen and (max-width: 900px){
+	.contact p{
+		font-size: 23px;
+
+	}
+
+	.howto h1{	
+		
+		font-size: 36px;
+		margin-bottom: 20px;
+		padding-bottom: 20px;	
+	
+	}
+
+}
+@media only screen and (max-width: 600px) {
+
+
+	.contact p{
+		font-size: 21px;
+
+	}
+.map{
+	width: 99%;
+}
+
+
+.errorclass p{
+	
+	margin-left: 10%;
+
+}
+
+.success p{
+	margin-left: 5%;
+}
+
+.howto h1{
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+
+.howto p{
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+	
+}

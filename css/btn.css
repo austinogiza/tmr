@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.btnbody{
+	margin-top: 100px;
+	margin: 0 auto;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 200px;
+	font-family: 'Poppins', sans-serif;
+	margin-bottom: 30px;
+	text-align: center;
+	height: auto;
+}
+
+.btncontact{
+	width: 900px;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: auto;
+	justify-content: center;
+}
+
+.btncontact .btnbox{
+	text-align: center;
+    width: 300px;
+    padding: 15px;
+}
+
+.btncontact .btnbox .icon i{
+font-size: 70px;
+cursor: pointer;
+margin-top: 40px;
+margin-bottom: 30px;
+color: lawngreen;
+}
+
+.btncontact .btnbox p{
+    color: #d1cccc!important;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.btncontact .btnbox .icon h4, 
+.btncontact .btnbox .icon h3{
+	position: relative;
+	font-weight: 400;
+	margin: 0;
+	padding: 2px 5px;
+	font-size: 24px;
+    overflow: hidden;
+    padding-bottom: 20px;
+    font-family: Montserrat,sans-serif;
+    
+}
+
+.btncontact .btnbox .icon h4{
+font-weight: 600;
+margin: 5px 0;
+font-style: 30px;
+}
+
+ 
+.btncontact .btnbox .icon h3:before,
+.btncontact .btnbox .icon h4:before{
+
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 100%;
+	background: #00bcd4;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+.btncontact .btnbox .icon h4:before {
+	left: initial;
+	right: 100%;
+background:lawngreen;
+}
+
+.btncontact .btnbox i:hover ~ h4:before{
+    left: -100%;
+}
+
+
+.btncontact .btnbox i:hover ~ h4:before {
+	left: initial;
+	right: -100%;
+}
+
+@media only screen and (max-width: 900px) {
+	
+	.btnbody{
+		height: auto;
+	}
+
+	.btncontact{
+		grid-template-columns: repeat(1, 1fr);
+		margin-left: 20%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.btnbody{
+		height: auto;
+
+		justify-content: center;	
+	}
+
+	.btncontact{
+		grid-template-columns: repeat(1, 1fr);
+		margin-left: 4%;
+		justify-content: center;
+		
+	}
+}

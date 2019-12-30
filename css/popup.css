@@ -1,0 +1,61 @@
+/* The Modal (background) */
+.modal {
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+     transform: translate(-50%, -50%); 
+    height: 500px;
+ width: 700px;
+    /*    background: url('../images/tmrban.jpeg');
+    background-size: cover; */
+    background-position: center;
+      background-size: cover;
+    background: url('../images/tmrban.jpeg');
+    background-size: cover;
+    overflow: auto; /* Enable scroll if needed */
+    
+  }
+  #myPop{
+    display: none;
+  }  
+
+  
+  /* The Close Button */
+  .close i{
+    color: #000000;
+    float: right;
+    font-size: 38px;
+    font-weight: bold;
+    background: transparent;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  
+  @media only screen and (max-width:600px){
+
+    /* The Modal (background) */
+.modal {
+   
+    height: 250px;
+ width: 300px;
+    /*    background: url('../images/tmrban.jpeg');
+    background-size: cover;
+    background-position: center; */
+      background-size: cover;
+    background: url('../images/tmrban.jpeg');
+    background-size: cover;
+    background-position: center;
+  
+    
+  }
+
+
+  }

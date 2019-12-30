@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 90px;
+	font-family: 'Poppins', sans-serif;
+	background: rgba( 30, 33, 38, 0.9) !important;;
+}
+
+.head {
+	background: #f5f6fa;
+	color: #2d3436;	
+	min-height: 90px;
+	position: relative;
+
+}
+
+ .head{
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1fr 0.3fr;
+}
+
+.head .logo{
+	color: #34495e;
+	width: 200px;
+	height: 100px;
+
+}
+
+.head .logo img{
+	width: 200px;
+	height: 100px;
+}
+
+.head i{
+	color: #4cd137;
+	font-size: 33px;
+	cursor: pointer;
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 5px;
+}
+
+.burger{
+position: absolute;
+top: 0%;
+right: 5%;
+}
+
+.burger span{
+	width: 30px;
+	height: 30px;
+	background-color: #353b48;
+	margin: 5px;
+
+}
+
+
+
+.head .mesg{
+	
+    border: 1px solid #353b48;
+    border-radius: 50px;
+    padding: 13px 14px;
+   margin: 25px;
+    }
+.head .mesg p{
+	font-size: 18px;
+
+}
+
+.head .mesg a{
+	text-decoration: none;
+	padding: 13px 14px;
+}
+
+.nav-links{
+
+	padding-top: 40px;
+
+	display: flex;
+	justify-content: space-around;
+	/*width: 30%;*/
+
+}
+
+.nav-links a{
+	text-decoration: none;
+	color: #ecf0f1;
+	text-transform: uppercase;
+	padding: 15px 15px 10px 15px !important;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.nav-links a::after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background: #fff;
+	transition: width .3s;
+}
+
+.nav-links a:hover::after{
+	width: 100%;
+	transition: width .3s;
+}
+
+
+.nav-links li{
+	list-style-type: none;
+	/*	padding: 10px 15px;*/
+}
+
+.gray{
+	background: #95a5a6;
+	width: 100%;
+	height: 500px;
+	background-image:   url('../images/new (6).jpg');
+	background-size: cover;
+
+	background-attachment: scroll;
+}
+
+.gray .container {
+	text-align: center;
+}
+
+.arrowup{
+	position: fixed;
+	bottom: 10%;
+	right: 10%;
+	font-size: 22px;
+	padding: 10px 15px;
+	outline: none;
+	border: none;
+	background: #353b48;
+	
+	color: #fff;
+	/* height: 50px; */
+	cursor: pointer;
+	display: none;
+	z-index: 100;
+	outline: none;
+	opacity: 0.8;
+}
+
+.arrowup i{
+	font-size: 40px;
+	color: #f5f6fa;
+
+	outline: none;
+	padding: 10px 14px;
+	z-index: 100;
+
+}
+
+@media only screen and (max-width: 1080px) {
+	.head .mesg p{
+	font-size: 16px;
+
+}
+}
+@media only screen and (max-width: 980px) {
+	
+
+	.head .mesg, nav{
+		display: none;
+	}
+
+
+}

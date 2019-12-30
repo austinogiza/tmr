@@ -1,0 +1,81 @@
+[
+
+
+
+      {
+        "id": "1",
+        "name": "Audio System"
+
+      },
+      {
+        "id":"2",
+        "name": "Fans"
+
+      },
+      { "id":"3",
+        "name": "Fax Machine"
+
+      },
+        {
+          "id": "4",
+          "name": "Lamps (Bulb)"
+
+        },
+        {
+          "id":"5",
+          "name": "Lamps (CFL)"
+
+        },
+        { "id":"6",
+          "name": "LCD TV"
+
+        },
+        {
+          "id": "7",
+          "name": "Photocopier"
+
+        },
+        {
+          "id":"8",
+          "name": "Plasma TV"
+
+        },
+        { "id":"9",
+          "name": "Printer"
+
+        },
+        {
+          "id": "10",
+          "name": "Projector"
+
+        },
+        {
+          "id":"11",
+          "name": "Refrigerator"
+
+        },
+        { "id":"12",
+          "name": "Scanner"
+
+        },
+        {
+          "id": "13",
+          "name": "Split air conditioner"
+
+        },
+        {
+          "id":"14",
+          "name": "Tube Lights"
+
+        },
+        { "id":"15",
+          "name": "Water Heater/Geaser"
+
+        },
+        {
+          "id": "16",
+          "name": "Window air conditioner"
+
+        }
+
+]
